@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04108EDC15D4265300633285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04108EDB15D4265300633285 /* UIKit.framework */; };
+		04108EDE15D4265300633285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04108EDD15D4265300633285 /* Foundation.framework */; };
+		04108EE015D4265300633285 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04108EDF15D4265300633285 /* CoreGraphics.framework */; };
+		04108EE615D4265300633285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04108EE415D4265300633285 /* InfoPlist.strings */; };
+		04108EE815D4265300633285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EE715D4265300633285 /* main.m */; };
+		04108EEC15D4265300633285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EEB15D4265300633285 /* AppDelegate.m */; };
+		04108EEF15D4265300633285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EEE15D4265300633285 /* ViewController.m */; };
+		04108EF215D4265300633285 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04108EF015D4265300633285 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04108ED715D4265300633285 /* Burkova1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burkova1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04108EDB15D4265300633285 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04108EDD15D4265300633285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04108EDF15D4265300633285 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04108EE315D4265300633285 /* Burkova1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Burkova1-Info.plist"; sourceTree = "<group>"; };
+		04108EE515D4265300633285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04108EE715D4265300633285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04108EE915D4265300633285 /* Burkova1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Burkova1-Prefix.pch"; sourceTree = "<group>"; };
+		04108EEA15D4265300633285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04108EEB15D4265300633285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04108EED15D4265300633285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04108EEE15D4265300633285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04108EF115D4265300633285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04108ED415D4265300633285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04108EDC15D4265300633285 /* UIKit.framework in Frameworks */,
+				04108EDE15D4265300633285 /* Foundation.framework in Frameworks */,
+				04108EE015D4265300633285 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04108ECC15D4265300633285 = {
+			isa = PBXGroup;
+			children = (
+				04108EE115D4265300633285 /* Burkova1 */,
+				04108EDA15D4265300633285 /* Frameworks */,
+				04108ED815D4265300633285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04108ED815D4265300633285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04108ED715D4265300633285 /* Burkova1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04108EDA15D4265300633285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04108EDB15D4265300633285 /* UIKit.framework */,
+				04108EDD15D4265300633285 /* Foundation.framework */,
+				04108EDF15D4265300633285 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04108EE115D4265300633285 /* Burkova1 */ = {
+			isa = PBXGroup;
+			children = (
+				04108EEA15D4265300633285 /* AppDelegate.h */,
+				04108EEB15D4265300633285 /* AppDelegate.m */,
+				04108EED15D4265300633285 /* ViewController.h */,
+				04108EEE15D4265300633285 /* ViewController.m */,
+				04108EF015D4265300633285 /* ViewController.xib */,
+				04108EE215D4265300633285 /* Supporting Files */,
+			);
+			path = Burkova1;
+			sourceTree = "<group>";
+		};
+		04108EE215D4265300633285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04108EE315D4265300633285 /* Burkova1-Info.plist */,
+				04108EE415D4265300633285 /* InfoPlist.strings */,
+				04108EE715D4265300633285 /* main.m */,
+				04108EE915D4265300633285 /* Burkova1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04108ED615D4265300633285 /* Burkova1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04108EF515D4265300633285 /* Build configuration list for PBXNativeTarget "Burkova1" */;
+			buildPhases = (
+				04108ED315D4265300633285 /* Sources */,
+				04108ED415D4265300633285 /* Frameworks */,
+				04108ED515D4265300633285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Burkova1;
+			productName = Burkova1;
+			productReference = 04108ED715D4265300633285 /* Burkova1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04108ECE15D4265300633285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = flutesa;
+			};
+			buildConfigurationList = 04108ED115D4265300633285 /* Build configuration list for PBXProject "Burkova1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04108ECC15D4265300633285;
+			productRefGroup = 04108ED815D4265300633285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04108ED615D4265300633285 /* Burkova1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04108ED515D4265300633285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04108EE615D4265300633285 /* InfoPlist.strings in Resources */,
+				04108EF215D4265300633285 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04108ED315D4265300633285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04108EE815D4265300633285 /* main.m in Sources */,
+				04108EEC15D4265300633285 /* AppDelegate.m in Sources */,
+				04108EEF15D4265300633285 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04108EE415D4265300633285 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04108EE515D4265300633285 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04108EF015D4265300633285 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04108EF115D4265300633285 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04108EF315D4265300633285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04108EF415D4265300633285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04108EF615D4265300633285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burkova1/Burkova1-Prefix.pch";
+				INFOPLIST_FILE = "Burkova1/Burkova1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04108EF715D4265300633285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burkova1/Burkova1-Prefix.pch";
+				INFOPLIST_FILE = "Burkova1/Burkova1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04108ED115D4265300633285 /* Build configuration list for PBXProject "Burkova1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04108EF315D4265300633285 /* Debug */,
+				04108EF415D4265300633285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04108EF515D4265300633285 /* Build configuration list for PBXNativeTarget "Burkova1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04108EF615D4265300633285 /* Debug */,
+				04108EF715D4265300633285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04108ECE15D4265300633285 /* Project object */;
+}
