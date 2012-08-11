@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSDate+CDate.h"
 
 @interface ViewController : UIViewController
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSString+CData.h"
+#import "NSDate+CDate.h"
 
 @interface ViewController ()
 
@@ -38,8 +38,8 @@
 }
 
 - (IBAction)buttonClicked:(UIButton *)sender {  //обрабатываем события нажатия на клавишу
-    NSString *_cdata = [@"%@" myData];          //принцип присвоения результата работы метода не ясен :)
-    [lblData setText: _cdata];                  //устанавливаем в метку получившуюся строку
-} //как в ViewComtroller.xib сделать метку авторасширяемой по контенту?
-    
+    NSString * _cdata = [@"%@" myDate];
+    [lblData setText: _cdata];                
+}
+                        
 @end
