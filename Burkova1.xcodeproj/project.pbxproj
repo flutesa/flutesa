@@ -15,6 +15,7 @@
 		04108EEC15D4265300633285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EEB15D4265300633285 /* AppDelegate.m */; };
 		04108EEF15D4265300633285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EEE15D4265300633285 /* ViewController.m */; };
 		04108EF215D4265300633285 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04108EF015D4265300633285 /* ViewController.xib */; };
+		04108EFA15D4271900633285 /* NSString+CData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04108EF915D4271900633285 /* NSString+CData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		04108EED15D4265300633285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04108EEE15D4265300633285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04108EF115D4265300633285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		04108EF815D4271900633285 /* NSString+CData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CData.h"; sourceTree = "<group>"; };
+		04108EF915D4271900633285 /* NSString+CData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				04108EE415D4265300633285 /* InfoPlist.strings */,
 				04108EE715D4265300633285 /* main.m */,
 				04108EE915D4265300633285 /* Burkova1-Prefix.pch */,
+				04108EF815D4271900633285 /* NSString+CData.h */,
+				04108EF915D4271900633285 /* NSString+CData.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				04108EE815D4265300633285 /* main.m in Sources */,
 				04108EEC15D4265300633285 /* AppDelegate.m in Sources */,
 				04108EEF15D4265300633285 /* ViewController.m in Sources */,
+				04108EFA15D4271900633285 /* NSString+CData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,7 @@
 				04108EF715D4265300633285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

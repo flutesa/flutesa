@@ -7,12 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "NSString+CData.h"
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *lblData;
+
 @end
 
+
 @implementation ViewController
+@synthesize lblData;
 
 - (void)viewDidLoad
 {
@@ -22,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setLblData:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +37,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)buttonClicked:(UIButton *)sender {  //обрабатываем события нажатия на клавишу
+    NSString *_cdata = [@"%@" myData];          //принцип присвоения результата работы метода не ясен :)
+    [lblData setText: _cdata];                  //устанавливаем в метку получившуюся строку
+} //как в ViewComtroller.xib сделать метку авторасширяемой по контенту?
+    
 @end
